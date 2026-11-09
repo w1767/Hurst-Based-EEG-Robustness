@@ -1,0 +1,6 @@
+- participant numbering has gaps (P1, P2, P8-P11). Seems like they were chosen from larger set
+- original data already seems to be preprocessed 
+- 2 Hurst files only have 2 columns, need author clarificatino
+- Hurst_P11.txt has a maximum of 1.007, which is not a valid Hurst value
+- F3 chosen after examining all 31 channels 
+- Math in the "theoretical approach" section of the paper is wrong
