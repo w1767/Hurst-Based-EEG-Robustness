@@ -3,4 +3,6 @@
 - 2 Hurst files only have 2 columns, need author clarificatino
 - Hurst_P11.txt has a maximum of 1.007, which is not a valid Hurst value
 - F3 chosen after examining all 31 channels 
-- Math in the "theoretical approach" section of the paper is wrong
+- Math in the "theoretical approach" section of the paper is wrong, adds extra sum
+- Paper says 1,000-point step (= 18 windows), but every Hurst file has 17,000 rows, consistent with a 1-point step.
+- Step 1 log-ratio is undefined when values change sign or hit zero; F3 (row 2) is strictly positive for 6 of 12 participants (H4, H12, P1, P2, P9, P11), so the formula is valid for them. Four participants have 2–4 sign changes each (H3, H6, P8, P10). H5 and H7 have many negative values, Need author calirifcation as to how they handled these 2 subjects. 
